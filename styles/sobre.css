@@ -39,7 +39,6 @@
   .sobre-img {
     flex: 1;
     min-width: 300px;
-    animation: fadeInLeft 1s ease forwards;
     opacity: 0;
   }
   
@@ -59,7 +58,6 @@
     flex: 1;
     font-size: 1.1rem;
     line-height: 1.8;
-    animation: fadeInRight 1s ease forwards;
     opacity: 0;
     font-size: 1.3rem;
   }
@@ -76,30 +74,7 @@
     color: #DAA520;
     font-weight: 600;
   }
-  
-  /* ====== ANIMAÇÕES ====== */
-  @keyframes fadeInLeft {
-    from {
-      opacity: 0;
-      transform: translateX(-80px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes fadeInRight {
-    from {
-      opacity: 0;
-      transform: translateX(80px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
+    
   /* ====== RESPONSIVIDADE ====== */
   @media (max-width: 900px) {
     .sobre-container {

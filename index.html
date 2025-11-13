@@ -12,47 +12,62 @@
 
     <!--CABEÇALHO-->
     <header>
-        <img src="images/logo em png.png" alt="logo leonardo lima">
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Áreas de atuação</a>
-            <a href="#">Depoimentos</a>
-            <a href="#">Agendar Consulta</a>
-        </nav>
-    </header>
+        <div class="container">
+          <div class="logo">
+            <img src="images/logo em png.png" alt="Logo Dr. Leonardo Lima">
+          </div>
+      
+          <nav class="navbar">
+            <ul>
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Áreas</a></li>
+              <li><a href="#">Artigos</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+      
+          <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      
+      
 
     <!--HERO  OBS: ADICIONAR IMAGEM DE FUNDO NO CSS-->
     <section class="sec-inicio">
         <div class="div-inicio">
-            <h1>Protegendo o seu patrimônio com segurança jurídica e experiência.</h1>
-            <h4>Especialista em Direito Imobiliário com mais de X anos de atuação em contratos, locações e regularização
+            <h1 class="reveal-left ">Protegendo o seu patrimônio com segurança jurídica e experiência.</h1>
+            <h4 class="reveal-up">Especialista em Direito Imobiliário com mais de 8 anos de atuação em contratos, locações e regularização
                 de imóveis</h4>
 
             <p></p>
 
-            <div class="div-inicio-btn">
-                <a href="#">Fale com Leonardo Limna</a>
+            <div class="div-inicio-btn reveal-up" >
+                <a href="#">Fale com Dr. Leonardo Lima</a>
                 <button>Saiba Mais</button>
             </div>
 
 
 
-            <span>Consultoria jurídica imobiliária em todo o Brasil.</span>
+            <span class="reveal-fade">Consultoria jurídica imobiliária em todo o Brasil.</span>
         </div>
     </section>
 
     <!--SOBRE O ADVOGADO-->
     <section class="sobre">
-        <h2>Quem é o Dr. Leonardo Lima</h2>
+        <h2 class="reveal-up">Quem é o Dr. Leonardo Lima</h2>
 
-        <div class="sobre-container">
-            <div class="sobre-img">
+        <div class="sobre-container ">
+            <div class="sobre-img reveal-left">
                 <img src="/images/escritorio-para-advogados.jpeg" alt="Dr. Leonardo Lima">
             </div>
 
             <div class="sobre-texto">
-                <p>
+                <p class="reveal-up">
                     Dr. Leonardo Lima é advogado inscrito na OAB/MA 00000, com especialização em Direito Imobiliário e
                     mais de 10 anos de experiência na área.
                     Atua com foco em segurança jurídica, clareza nas negociações e soluções eficientes para pessoas
@@ -69,15 +84,39 @@
         </p>
     </section>
 
+    <!--ESCRITORIO-->
+    <section class="escritorio">
+        <div class="escritorio-conteudo">
+            <div class="texto">
+                <h2>Nosso Ambiente de Trabalho</h2>
+                <p class="reveal-up">
+                    Nosso escritório foi projetado para refletir os valores que norteiam o trabalho jurídico:
+                    <strong>profissionalismo, confiança e acolhimento</strong>.
+                    Cada detalhe do espaço foi pensado para garantir conforto aos clientes e
+                    proporcionar um ambiente tranquilo para a análise e resolução de casos.
+                </p>
+                <p>
+                    Aqui, combinamos tradição e modernidade — com uma estrutura completa para
+                    <strong>atendimentos presenciais e online</strong>, sempre priorizando o sigilo e a segurança das
+                    informações.
+                </p>
+            </div>
+
+            <div class="imagem">
+                <!-- Substitua pelo caminho da sua foto -->
+                <img src="images/8d80b0a386d64d1f5d93e6d8b28a3ad6.jpg" alt="Foto do escritório de advocacia">
+            </div>
+        </div>
+    </section>
 
     <!-- ÁREAS DE ATUAÇÃO -->
     <section class="atuacao" id="atuacao">
         <div class="atuacao-container">
 
-            <h2>Especializações em Direito Imobiliário</h2>
-            <h4>Conheça as principais áreas de atuação do escritório.</h4>
+            <h2 class="reveal-left ">Especializações em Direito Imobiliário</h2>
+            <h4 class="reveal-fade">Conheça as principais áreas de atuação do escritório.</h4>
 
-            <div class="cards-atuacao">
+            <div class="cards-atuacao reveal-up">
 
                 <div class="card">
                     <div class="icone">🏠</div>
@@ -188,8 +227,8 @@
 
     <!--DEPOIMENTOS-->
     <section class="depoimentos-section">
-        <div class="depo-container">
-            <h2>O que dizem os clientes</h2>
+        <div class="depo-container ">
+            <h2 class="">O que dizem os clientes</h2>
             <p>Depoimentos de quem já confiou no Dr. Leonardo Lima</p>
 
             <div class="depo-carousel">
@@ -225,29 +264,29 @@
     <!-- SEÇÃO DE CONTEÚDO JURÍDICO -->
     <section class="conteudo-juridico-novo">
         <div class="conteudo-wrapper">
-            <div class="titulo-secao">
-                <h1>Conteúdo Jurídico e Informativo</h1>
-                <p>Artigos e informações para ajudá-lo a compreender seus direitos no mercado imobiliário.</p>
+            <div class="titulo-secao ">
+                <h1 class="reveal-up">Conteúdo Jurídico e Informativo</h1>
+                <p class="reveal-fade">Artigos e informações para ajudá-lo a compreender seus direitos no mercado imobiliário.</p>
             </div>
 
             <div class="cards-artigos">
-                <div class="card-artigo">
+                <div class="card-artigo reveal-up">
                     <h3>Como evitar golpes em contratos de compra e venda de imóveis</h3>
                     <p>Saiba quais cláusulas exigem atenção e como garantir segurança jurídica nas negociações.</p>
                 </div>
 
-                <div class="card-artigo">
+                <div class="card-artigo reveal-fade">
                     <h3>Usucapião extrajudicial: o que é e quando é possível</h3>
                     <p>Descubra como regularizar um imóvel sem precisar entrar com ação judicial.</p>
                 </div>
 
-                <div class="card-artigo">
+                <div class="card-artigo reveal-left">
                     <h3>Diferença entre promessa de compra e contrato definitivo</h3>
                     <p>Entenda os riscos e cuidados necessários antes de assinar qualquer documento.</p>
                 </div>
             </div>
 
-            <a href="#" class="btn-artigos">Ver todos os artigos</a>
+            <a href="#" class="btn-artigos reveal-up">Ver todos os artigos</a>
         </div>
     </section>
 
@@ -257,16 +296,16 @@
     <!--CONTATO-->
     <section class="contato-juridico">
         <div class="contato-container">
-            <div class="contato-info">
-                <h1>Precisa de orientação jurídica imobiliária?</h1>
+            <div class="contato-info reveal-left">
+                <h1 class="reveal-zoom">Precisa de orientação jurídica imobiliária?</h1>
                 <h4>Entre em contato e fale diretamente com o especialista.</h4>
-                <p>
+                <p> 
                     Preencha o formulário abaixo ou envie uma mensagem pelo WhatsApp.<br>
                     O primeiro contato é totalmente confidencial e sem compromisso.
                 </p>
             </div>
 
-            <div class="contato-form">
+            <div class="contato-form reveal-right">
                 <form>
                     <label for="nome">Nome Completo</label>
                     <input type="text" id="nome" name="nome" required>
@@ -293,7 +332,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h2>Dr. João Silva | Direito Imobiliário</h2>
+                <h2>Dr. Leonardo Lima | Direito Imobiliário</h2>
                 <p>OAB/MA 00000</p>
                 <p>E-mail: <a href="mailto:contato@joaosilvaadv.com.br">contato@joaosilvaadv.com.br</a></p>
             </div>
@@ -307,18 +346,18 @@
             <div class="footer-section">
                 <h3>Links rápidos:</h3>
                 <nav class="footer-links">
-                    <a href="#">Início</a> |
-                    <a href="#">Sobre</a> |
-                    <a href="#">Áreas</a> |
-                    <a href="#">Artigos</a> |
-                    <a href="#">Contato</a> |
+                    <a href="#">Início</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Áreas</a>
+                    <a href="#">Artigos</a>
+                    <a href="#">Contato</a>
                     <a href="#">Política de Privacidade</a>
                 </nav>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>© 2025 Dr. João Silva - Todos os direitos reservados.</p>
+            <p>© 2025 Dr. LÇeonardo Lima - Todos os direitos reservados.</p>
             <p>Site desenvolvido por <a href="#">Davi Ladwig</a> | dev</p>
         </div>
     </footer>

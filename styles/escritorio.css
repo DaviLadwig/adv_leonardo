@@ -1,0 +1,69 @@
+.escritorio {
+    background-color: #0b1020;
+    color: #fff;
+    padding: 80px 10%;
+    overflow: hidden;
+}
+
+.escritorio-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1.5s ease forwards;
+}
+
+.escritorio .texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.escritorio .texto h2 {
+    font-size: 2rem;
+    color: #e8c547;
+    margin-bottom: 20px;
+}
+
+.escritorio .texto p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #dcdcdc;
+}
+
+.escritorio .imagem {
+    flex: 1;
+    min-width: 300px;
+}
+
+.escritorio .imagem img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.escritorio .imagem img:hover {
+    transform: scale(1);
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* Animação */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    .escritorio-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+}

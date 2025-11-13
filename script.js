@@ -59,3 +59,44 @@ prevBtn.addEventListener('click', () => showSlide(current - 1));
 
 // Auto-play
 setInterval(() => showSlide(current + 1), 6000);
+
+//MENU RESPONSIVO
+
+
+  const menuToggle = document.getElementById('menu-toggle');
+  const navList = document.querySelector('.navbar ul');
+
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+  });
+
+//ANIMAÇÕES
+  const reveals = document.querySelectorAll('.reveal-left, .reveal-right, .reveal-up, .reveal-fade');
+
+  function revealOnScroll() {
+    const windowHeight = window.innerHeight;
+    const revealPoint = 120; // quanto antes a animação inicia
+
+    reveals.forEach((reveal) => {
+      const revealTop = reveal.getBoundingClientRect().top;
+
+      if (revealTop < windowHeight - revealPoint) {
+        reveal.classList.add('active');
+        reveal.classList.add('reveal'); // ativa o estado CSS
+      }
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+
+  if (revealTop < windowHeight - revealPoint) {
+    element.classList.add('active');
+    element.classList.add('done');
+  }
+  
+
+  
+
+
