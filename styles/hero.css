@@ -83,4 +83,126 @@
 }
 
 
+@media(max-width: 1280px){
 
+    .div-inicio h1{
+        font-size: 2rem;
+    }
+
+    .div-inicio h4{
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 1024px){
+
+    .div-inicio{
+        width: 95%;
+        gap: 30px;
+    }
+
+    .div-inicio h1{
+        font-size: 2rem;
+    }
+
+    .div-inicio h4{
+        font-size: 1rem;
+    }
+
+    .div-inicio span{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 853px){
+    .div-inicio{
+        width: 95%;
+        gap: 30px;
+    }
+
+    .div-inicio h1{
+        font-size: 2rem;
+
+    }
+
+    .div-inicio h4{
+        font-size: 1.2rem;
+    }
+
+    .div-inicio span{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 430px){
+    .div-inicio-btn{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 412px){
+
+    .div-inicio{
+        width: 90%;
+        gap: 50px;
+    }
+
+    .div-inicio h1{
+        font-size: 1rem;
+    }
+
+    .div-inicio-btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-inicio-btn a{
+        font-size: 1rem;
+    }
+    .div-inicio-btn button{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 390px){
+
+    .div-inicio{
+        padding-top: 70px;
+    }
+
+    .div-inicio h1{
+        font-size: 2rem
+    }
+
+    .div-inicio h4{
+        font-size: 1,2rem;
+    }
+    
+    .div-inicio span{
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 363px){
+    .div-inicio{
+        width: 90%;
+        height: 100%;
+
+    }
+
+    .div-inicio h1{
+        font-size: 1.6rem;
+        margin-top: 50px;
+    }
+
+    .div-inicio h4{
+        font-size: 1rem;
+    }
+
+    .div-inicio span{
+        font-size: 1rem;
+    }
+}
