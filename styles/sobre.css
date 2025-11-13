@@ -1,0 +1,115 @@
+/* ====== SEÇÃO SOBRE ====== */
+.sobre {
+    width: 100%;
+    padding: 80px 10%;
+    background: #f7f8fa;
+    color: #0b1020;
+    overflow: hidden;
+  }
+  
+  .sobre h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .sobre h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60%;
+    height: 3px;
+    background: #DAA520;
+    border-radius: 10px;
+  }
+  
+  /* ====== CONTAINER ====== */
+  .sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* ====== IMAGEM ====== */
+  .sobre-img {
+    flex: 1;
+    min-width: 300px;
+    animation: fadeInLeft 1s ease forwards;
+    opacity: 0;
+  }
+  
+  .sobre-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease;
+  }
+  
+  .sobre-img img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* ====== TEXTO ====== */
+  .sobre-texto {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    animation: fadeInRight 1s ease forwards;
+    opacity: 0;
+    font-size: 1.3rem;
+  }
+  
+  /* ====== FRASE FINAL ====== */
+  .frase-final {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .frase-final span {
+    color: #DAA520;
+    font-weight: 600;
+  }
+  
+  /* ====== ANIMAÇÕES ====== */
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-80px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(80px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* ====== RESPONSIVIDADE ====== */
+  @media (max-width: 900px) {
+    .sobre-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .sobre h2::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
