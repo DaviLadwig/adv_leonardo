@@ -94,26 +94,16 @@
     }
 }
 
-
-@media(max-width: 1024px){
-
-    .div-inicio{
-        width: 95%;
-        gap: 30px;
-    }
-
+@media(max-width:1065px){
     .div-inicio h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .div-inicio h4{
-        font-size: 1rem;
-    }
-
-    .div-inicio span{
-        font-size: 1rem;
+        font-size: 13px;
     }
 }
+
 
 @media(max-width: 853px){
     .div-inicio{
