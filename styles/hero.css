@@ -10,6 +10,7 @@
     background-attachment: fixed; /* A mágica */
     position: relative;
     
+    padding-top: 100px;
 }
 
 .div-inicio{
@@ -91,6 +92,16 @@
 
     .div-inicio h4{
         font-size: 1rem;
+    }
+}
+
+@media(max-width:1198px){
+    .div-inicio h1{
+        font-size: 1.5rem;
+    }
+
+    .div-inicio h4{
+        font-size: 13px;
     }
 }
 
