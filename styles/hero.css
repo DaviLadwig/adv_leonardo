@@ -1,6 +1,7 @@
 .sec-inicio{
     width: 100%;
     height: 100vh;
+    padding: 10px;
     display: flex;
     justify-content: center ;
     background-image: url('../images/natureza-morta-com-balanca-da-justica\ \(1\).jpg');
@@ -11,6 +12,7 @@
     position: relative;
     
     padding-top: 100px;
+    
 }
 
 .div-inicio{

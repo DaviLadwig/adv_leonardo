@@ -1,10 +1,10 @@
 .contato-juridico {
     background-color: #ffffff;   
     color: #fff;
-    padding: 100px 40px;
+    padding: 10px;
     position: relative;
     overflow: hidden;
-  }
+}
   
   .contato-juridico::before {
     content: "";
