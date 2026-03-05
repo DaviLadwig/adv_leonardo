@@ -125,3 +125,14 @@ header {
     }
   }
   
+  @media (max-width: 350px){
+    .logo img{
+      width: 160px;
+    }
+  }
+
+  @media (max-width: 370px){
+    .logo img{
+      width: 160px;
+    }
+  }
